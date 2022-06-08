@@ -1,0 +1,126 @@
+<head>
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+  <script src="https://chemapps.stolaf.edu/jmol/jsmol/JSmol.min.js" type="text/javascript"></script>
+  <script src="https://chemapps.stolaf.edu/jmol/jsmol/js/Jmol2.js" type="text/javascript"></script>
+  <script type="text/javascript"> 
+   Jmol.Info=[]
+    Jmol.Info.serverURL= "https://chemapps.stolaf.edu/jmol/jsmol/php/jsmol.php"
+    jmolInitialize("https://chemapps.stolaf.edu/jmol/jsmol", true);
+  </script>
+<link rel="stylesheet" type="text/css" href="stile_visualizzatore.css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/dreampulse/computer-modern-web-font/master/fonts.css">
+<style type="text/css">
+      @font-face {
+        font-family: "Computer Modern";
+        src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
+      }
+</style>
+
+</head>
+ 
+<body font-family: "Computer Modern";>
+<p> </p>
+<p align=center><span style="font-size: 200%;"><strong>Molecular/Periodic structures</strong></span></p>
+<p align=center>Click on the ZPE corrected Binding Energy value to display on the Jmol applet, and start to use Jmol, the complex between ammonia and the water whole cluster. The Values are sorted from the lower to higher and are in kJ/mol unit.</p>
+<p align=center>The BE are computed at ONIOM(DLPNO-CCSD(T)/aug-cc-pvtz:xTB-GFN2)//ONIOM(B97D3/aug-cc-pvtz:xTB-GFN2) level. To see the zone treated with higher accuracy via ONIOM method click on "zoom". </p>
+ <p align=center>The bare water cluster can be display clicking on this <a href="#" onclick="jmolScript('load structures/bare_grain.xyz');" style="text-decoration:none">link</a> and the ammonia on this <a href="#" onclick="jmolScript('load structures/nh3.xyz');" style="text-decoration:none">link</a>.</p>
+
+<p align=center>
+<table  align="center">
+<script type="text/javascript" align="center">
+  var script="background lavander";
+  jmolApplet(600, script);
+  var molecola = localStorage.getItem("molecola");
+  if(molecola != '' && molecola != null)
+        jmolScript(molecola);
+        jmolScript("");
+</script>
+<tr>
+  <div id="load_xyz"> </div>
+</tr>
+<tr>
+<script>
+      jmolRadioGroup([
+      ["spacefill off", "sticks"],
+      ["spacefill 25%", "sticks and balls", "checked"],
+      ["spacefill 100%", "van der Waals"]
+      ]); jmolBr(); jmolBr();
+</script>
+<script>
+      jmolRadioGroup([
+      ["hbonds off", "H-bonds off"],
+      ["calculate hbonds; color hbonds lightgrey; hbonds 0.04", "H-bonds on", "checked"]
+      ]); jmolBr(); jmolBr();
+</script>
+<td width="150">
+<script>
+      jmolCheckbox("spin on", "spin off", "spin"); 
+      jmolCheckbox("set antialiasDisplay true", "set antialiasDisplay false", "alias"); 
+</script>
+</tr>
+</table>
+</p>
+
+<div style="width:100%;float: center; padding-top: 0px;">
+     <p align="center"><strong></strong></p>
+            <table border="1" cellspacing="5" cellpadding="5" align="center" width="90%">
+            <tbody>
+            <tr>
+              <th colspan="2">H2O</th>
+              <th colspan="2">NH3</th>
+              <th colspan="2">CH3OH</th>
+            </tr>
+            <tr>
+              <th colspan="1">Sample</th>
+              <th colspan="1">BH(0)</th>
+              <th colspan="1">Sample</th>
+              <th colspan="1">BH(0)</th>
+              <th colspan="1">Sample</th>
+              <th colspan="1">BH(0)</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td><a href="#" onclick="jmolScript('load structures/grain_mol34.xyz');" style="text-decoration:none">12.7</a></td>
+              <td>1</td>
+              <td><a href="#" onclick="jmolScript('load structures/grain_mol34.xyz');" style="text-decoration:none">12.7</a></td>
+              <td>1</td>
+              <td><a href="#" onclick="jmolScript('load structures/grain_mol34.xyz');" style="text-decoration:none">12.7</a></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td><a href="#" onclick="jmolScript('load structures/grain_mol34.xyz');" style="text-decoration:none">12.7</a></td>
+              <td>2</td>
+              <td><a href="#" onclick="jmolScript('load structures/grain_mol34.xyz');" style="text-decoration:none">12.7</a></td>
+              <td>2</td>
+              <td><a href="#" onclick="jmolScript('load structures/grain_mol34.xyz');" style="text-decoration:none">12.7</a></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td><a href="#" onclick="jmolScript('load structures/grain_mol34.xyz');" style="text-decoration:none">12.7</a></td>
+              <td>3</td>
+              <td><a href="#" onclick="jmolScript('load structures/grain_mol34.xyz');" style="text-decoration:none">12.7</a></td>
+              <td>3</td>
+              <td><a href="#" onclick="jmolScript('load structures/grain_mol34.xyz');" style="text-decoration:none">12.7</a></td>
+            </tr>
+            <tr>
+              <td>Ads</td>
+              <td><a href="#" onclick="jmolScript('load structures/grain_mol34.xyz');" style="text-decoration:none">12.7</a></td>
+              <td>Ads</td>
+              <td><a href="#" onclick="jmolScript('load structures/grain_mol34.xyz');" style="text-decoration:none">12.7</a></td>
+              <td>Ads</td>
+              <td><a href="#" onclick="jmolScript('load structures/grain_mol34.xyz');" style="text-decoration:none">12.7</a></td>
+            </tr>
+            <tr>
+              <td>Des</td>
+              <td><a href="#" onclick="jmolScript('load structures/grain_mol34.xyz');" style="text-decoration:none">12.7</a></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+    </tbody>
+    </table>
+</div>
+</body>
+
