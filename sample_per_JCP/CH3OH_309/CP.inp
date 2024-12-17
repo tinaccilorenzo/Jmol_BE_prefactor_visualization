@@ -1,0 +1,132 @@
+#------------------------------------------------------
+# After the Orca calculation you will get two inter-
+# action energies at the end of the output file. The
+# difference is the negative BSSE.
+#
+# The script will set the orbital guess PModel for 
+# jobs 2-5 since Orca will try to use the .gbw-files of
+# the earlier calculations which does not work for jobs
+# 2 and 3 and does not help for jobs 4 and 5.
+#------------------------------------------------------
+#
+#-------------------------
+#     First the dimer
+#-------------------------
+
+%id "dimer"
+! DLPNO-CCSD(T) aug-cc-pVTZ aug-cc-pVTZ/C TightPNO
+%maxcore 2000
+%pal
+nprocs 10
+end
+
+* xyz 0 1
+H    -7.032635    -3.418055    -3.418330 
+O    -7.645069    -4.030457    -3.889770 
+H    -7.088194    -4.461980    -4.563700 
+H    -5.180147    -5.723529    -5.359303 
+O    -5.827192    -5.097073    -5.727833 
+H    -5.285215    -4.305208    -5.942586 
+C    -7.606823    -6.185609    -8.665396 
+O    -6.254148    -6.339586    -8.283159 
+H    -7.714315    -6.601587    -9.665660 
+H    -6.140880    -5.918508    -7.413600 
+H    -8.296331    -6.721365    -8.002909 
+H    -7.917318    -5.135624    -8.705110 
+*
+
+#--------------------------
+#   Now the fragments at
+#      dimer-geometry 
+#-------------------------
+
+$new_job
+%id "fragment"
+%scf guess PModel end
+! DLPNO-CCSD(T) aug-cc-pVTZ aug-cc-pVTZ/C TightPNO
+%maxcore 2000
+%pal
+nprocs 10
+end
+
+* xyz 0 1
+H    -7.032635    -3.418055    -3.418330 
+O    -7.645069    -4.030457    -3.889770 
+H    -7.088194    -4.461980    -4.563700 
+H    -5.180147    -5.723529    -5.359303 
+O    -5.827192    -5.097073    -5.727833 
+H    -5.285215    -4.305208    -5.942586 
+*
+
+$new_job
+%id "fragment"
+%scf guess PModel end
+! DLPNO-CCSD(T) aug-cc-pVTZ aug-cc-pVTZ/C TightPNO
+%maxcore 2000
+%pal
+nprocs 6
+end
+
+* xyz 0 1
+C    -7.606823    -6.185609    -8.665396 
+O    -6.254148    -6.339586    -8.283159 
+H    -7.714315    -6.601587    -9.665660 
+H    -6.140880    -5.918508    -7.413600 
+H    -8.296331    -6.721365    -8.002909 
+H    -7.917318    -5.135624    -8.705110 
+*
+
+#--------------------------
+#   Now the fragments at
+#   dimer-geometry with  
+#     the dimer-basis
+#-------------------------
+
+$new_job
+%id "ghost"
+%scf guess PModel end
+! DLPNO-CCSD(T) aug-cc-pVTZ aug-cc-pVTZ/C TightPNO
+%maxcore 2000
+%pal
+nprocs 10
+end
+
+* xyz 0 1
+H         -7.032635    -3.418055    -3.418330 
+O         -7.645069    -4.030457    -3.889770 
+H         -7.088194    -4.461980    -4.563700 
+H         -5.180147    -5.723529    -5.359303 
+O         -5.827192    -5.097073    -5.727833 
+H         -5.285215    -4.305208    -5.942586 
+C :       -7.606823    -6.185609    -8.665396 
+O :       -6.254148    -6.339586    -8.283159 
+H :       -7.714315    -6.601587    -9.665660 
+H :       -6.140880    -5.918508    -7.413600 
+H :       -8.296331    -6.721365    -8.002909 
+H :       -7.917318    -5.135624    -8.705110 
+*
+
+$new_job
+%id "ghost"
+%scf guess PModel end
+! DLPNO-CCSD(T) aug-cc-pVTZ aug-cc-pVTZ/C TightPNO
+%maxcore 2000
+%pal
+nprocs 6
+end
+
+* xyz 0 1
+H :       -7.032635    -3.418055    -3.418330 
+O :       -7.645069    -4.030457    -3.889770 
+H :       -7.088194    -4.461980    -4.563700 
+H :       -5.180147    -5.723529    -5.359303 
+O :       -5.827192    -5.097073    -5.727833 
+H :       -5.285215    -4.305208    -5.942586 
+C         -7.606823    -6.185609    -8.665396 
+O         -6.254148    -6.339586    -8.283159 
+H         -7.714315    -6.601587    -9.665660 
+H         -6.140880    -5.918508    -7.413600 
+H         -8.296331    -6.721365    -8.002909 
+H         -7.917318    -5.135624    -8.705110 
+*
+

@@ -1,0 +1,11 @@
+!QM/XTB2 DLPNO-CCSD(T) aug-cc-pVTZ aug-cc-pVTZ/C TightPNO
+%maxcore 2000
+%pal
+nprocs 10
+end
+%qmmm
+QMAtoms {438 439 440 501 502 503 600 601 602 603 604 605 } end 
+ActiveAtoms {438 439 440 501 502 503 600 601 602 603 604 605 } end 
+end
+*xyzfile 0 1 grain_mol_opt.xyz 
+

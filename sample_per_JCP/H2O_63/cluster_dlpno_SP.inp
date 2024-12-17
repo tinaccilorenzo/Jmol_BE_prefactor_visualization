@@ -1,0 +1,11 @@
+!QM/XTB2 DLPNO-CCSD(T) aug-cc-pVTZ aug-cc-pVTZ/C TightPNO
+%maxcore 2000
+%pal
+nprocs 24
+end
+%qmmm
+QMAtoms {141 142 143 174 175 176 228 229 230 252 253 254 258 259 260 276 277 278 462 463 464 } end 
+ActiveAtoms {141 142 143 174 175 176 228 229 230 252 253 254 258 259 260 276 277 278 462 463 464 } end 
+end
+*xyzfile 0 1 cluster_opt.xyz 
+

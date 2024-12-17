@@ -1,0 +1,85 @@
+-------------------------------------------------------------
+----------------------- !PROPERTIES! ------------------------
+-------------------------------------------------------------
+------------------------ !PROPERTY! -------------------------
+   name:        PAL_Flags
+   comment:     The PAL Flags
+   geom. index: 1
+   prop. index: 1
+        Diskflag:     2
+------------------------ !PROPERTY! -------------------------
+   name:        SCF_Energy
+   comment:     The SCF energy
+   geom. index: 1
+   prop. index: 1
+        SCF Energy:     -608.5052660259
+------------------------ !PROPERTY! -------------------------
+   name:        MDCI_Energies
+   comment:     The MDCI energies
+   geom. index: 1
+   prop. index: 1
+        Total number of Electrons                                                     80
+        Number of correlated Electrons                                                64
+        Number of alpha correlated Electrons                                          32
+        Number of beta correlated Electrons                                           32
+        Reference Energy:                                                -608.5052660211
+        Total Correlation Energy:                                          -2.2971995118
+        Alpha-Alpha Pairs Correlation Energy (No (T))                       0.0000000000
+        Beta-Beta Pairs Correlation Energy (No (T))                         0.0000000000
+        Alpha-Beta Pairs Correlation Energy (No (T))                        0.0000000000
+        Singlet pairs energy of double amplitudes (No (T))                  0.0000000000
+        Triplet pairs energy of double amplitudes (No (T))                  0.0000000000
+        Singlet pairs energy of quadratic single amplitudes (No (T))        0.0000000000
+        Triplet pairs energy of quadratic single amplitudes (No (T))        0.0000000000
+        Triples Correction Energy:                                         -0.0726569171
+        Total MDCI Energy:                                               -610.8024655329
+------------------------ !PROPERTY! -------------------------
+   name:        SCF_Electric_Properties
+   comment:     The SCF Calculated Electric Properties
+   geom. index: 1
+   prop. index: 1
+       Filename                          : DLPNO_Cluster_TDP30.scfp 
+       Do Dipole Moment Calculation      : 1 
+       Do Quadrupole Moment Calculation  : 0 
+       Do Polarizability Calculation     : 0 
+** Dipole moment part of electric properties **
+        Magnitude of dipole moment (Debye) :        3.8110212990
+        Electronic Contribution:
+                   0          1          2    
+      0       0.556385   0.010305   0.108599
+        Nuclear Contribution:
+                   0          1          2    
+      0      -0.356396   1.259099  -0.881025
+        Total Dipole moment:
+                   0          1          2    
+      0       0.199989   1.269403  -0.772426
+-------------------------------------------------------------
+----------------------- !GEOMETRIES! ------------------------
+-------------------------------------------------------------
+------------------------ !GEOMETRY! -------------------------
+    Number of atoms:    24        Geometry Index:    1
+    Coordinates:
+            H      9.611042000000   -3.860093000000    2.083361000000
+            O      9.320933000000   -3.620697000000    1.171032000000
+            H     10.115892000000   -3.474568000000    0.638029000000
+            H      6.621822000000   -3.879811000000    0.271307000000
+            O      7.123984000000   -4.682844000000    0.033487000000
+            H      8.005896000000   -4.474873000000    0.430048000000
+            H      7.477795000000   -4.428871000000   -1.655320000000
+            O      7.626929000000   -4.460219000000   -2.633142000000
+            H      6.863763000000   -3.961878000000   -2.988769000000
+            H      3.986486000000   -8.065398000000   -1.087126000000
+            O      4.574151000000   -7.563752000000   -0.489457000000
+            H      5.022159000000   -6.963490000000   -1.122482000000
+            H      6.693837000000   -5.941377000000   -2.760720000000
+            O      5.938522000000   -6.576658000000   -2.774356000000
+            H      6.303544000000   -7.484208000000   -2.751443000000
+            H      6.274716000000   -5.751055000000    1.137336000000
+            O      5.776176000000   -6.326265000000    1.762539000000
+            H      5.362569000000   -6.980467000000    1.176471000000
+            H      5.941295000000   -9.026198000000   -1.381046000000
+            O      6.349980000000   -9.281403000000   -2.225668000000
+            H      5.619979000000   -9.700124000000   -2.702036000000
+            H      7.095911000000   -6.209169000000    3.218711000000
+            O      7.513650000000   -5.854231000000    4.024511000000
+            H      7.023769000000   -5.017874000000    4.173105000000

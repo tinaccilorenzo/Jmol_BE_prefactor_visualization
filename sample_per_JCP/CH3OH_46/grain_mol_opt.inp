@@ -1,0 +1,15 @@
+!QM/XTB2 B97-3c tightopt
+!NumFreq
+%pal
+nprocs 28
+end
+%qmmm
+QMAtoms {177 178 179 363 364 365 441 442 443 471 472 473 504 505 506 582 583 584 600 601 602 603 604 605 } end 
+ActiveAtoms {177 178 179 363 364 365 441 442 443 471 472 473 504 505 506 582 583 584 600 601 602 603 604 605 } end 
+ExtendActiveRegion no
+end
+%geom
+MaxIter 500
+end
+*xyzfile 0 1 xtbopt.xyz 
+

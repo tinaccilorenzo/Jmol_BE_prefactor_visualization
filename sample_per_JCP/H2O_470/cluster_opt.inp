@@ -1,0 +1,15 @@
+!QM/XTB2 B97-3c Opt
+!NumFreq
+%pal
+nprocs 24
+end
+%qmmm
+QMAtoms {99 100 101 150 151 152 234 235 236 246 247 248 309 310 311 351 352 353 354 355 356 405 406 407 519 520 521 558 559 560 } end 
+ActiveAtoms {99 100 101 150 151 152 234 235 236 246 247 248 309 310 311 351 352 353 354 355 356 405 406 407 519 520 521 558 559 560 } end 
+ExtendActiveRegion no
+end
+%geom
+MaxIter 500
+end
+*xyzfile 0 1 cluster_inp.xyz 
+

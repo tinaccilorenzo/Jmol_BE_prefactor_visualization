@@ -1,0 +1,6 @@
+! DLPNO-CCSD(T) aug-cc-pVTZ aug-cc-pVTZ/C TightPNO
+%pal
+nprocs 1
+end
+*xyzfile 0 1 h2o.xyz
+

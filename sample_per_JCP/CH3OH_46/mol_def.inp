@@ -1,0 +1,7 @@
+! DLPNO-CCSD(T) aug-cc-pVTZ aug-cc-pVTZ/C TightPNO 
+%maxcore 500
+%pal
+nprocs 7
+end
+*xyzfile 0 1 mol_inp.xyz 
+

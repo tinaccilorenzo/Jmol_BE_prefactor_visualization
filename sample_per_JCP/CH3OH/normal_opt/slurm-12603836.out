@@ -1,0 +1,460 @@
+--------------------------------------------------------------------------
+By default, for Open MPI 4.0 and later, infiniband ports on a device
+are not used by default.  The intent is to use UCX for these devices.
+You can override this policy by setting the btl_openib_allow_ib MCA parameter
+to true.
+
+  Local host:              n3768
+  Local adapter:           mlx5_0
+  Local port:              1
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   n3768
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+[n3768.occigen:47250] 5 more processes have sent help message help-mpi-btl-openib.txt / ib port not selected
+[n3768.occigen:47250] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n3768.occigen:47250] 5 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+--------------------------------------------------------------------------
+By default, for Open MPI 4.0 and later, infiniband ports on a device
+are not used by default.  The intent is to use UCX for these devices.
+You can override this policy by setting the btl_openib_allow_ib MCA parameter
+to true.
+
+  Local host:              n3768
+  Local adapter:           mlx5_0
+  Local port:              1
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   n3768
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+[n3768.occigen:47282] 5 more processes have sent help message help-mpi-btl-openib.txt / ib port not selected
+[n3768.occigen:47282] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n3768.occigen:47282] 5 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+--------------------------------------------------------------------------
+By default, for Open MPI 4.0 and later, infiniband ports on a device
+are not used by default.  The intent is to use UCX for these devices.
+You can override this policy by setting the btl_openib_allow_ib MCA parameter
+to true.
+
+  Local host:              n3768
+  Local adapter:           mlx5_0
+  Local port:              1
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   n3768
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+[n3768.occigen:47329] 5 more processes have sent help message help-mpi-btl-openib.txt / ib port not selected
+[n3768.occigen:47329] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n3768.occigen:47329] 5 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+--------------------------------------------------------------------------
+By default, for Open MPI 4.0 and later, infiniband ports on a device
+are not used by default.  The intent is to use UCX for these devices.
+You can override this policy by setting the btl_openib_allow_ib MCA parameter
+to true.
+
+  Local host:              n3768
+  Local adapter:           mlx5_0
+  Local port:              1
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   n3768
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+[n3768.occigen:47367] 5 more processes have sent help message help-mpi-btl-openib.txt / ib port not selected
+[n3768.occigen:47367] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n3768.occigen:47367] 5 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+--------------------------------------------------------------------------
+By default, for Open MPI 4.0 and later, infiniband ports on a device
+are not used by default.  The intent is to use UCX for these devices.
+You can override this policy by setting the btl_openib_allow_ib MCA parameter
+to true.
+
+  Local host:              n3768
+  Local adapter:           mlx5_0
+  Local port:              1
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   n3768
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+[n3768.occigen:47399] 5 more processes have sent help message help-mpi-btl-openib.txt / ib port not selected
+[n3768.occigen:47399] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n3768.occigen:47399] 5 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+--------------------------------------------------------------------------
+By default, for Open MPI 4.0 and later, infiniband ports on a device
+are not used by default.  The intent is to use UCX for these devices.
+You can override this policy by setting the btl_openib_allow_ib MCA parameter
+to true.
+
+  Local host:              n3768
+  Local adapter:           mlx5_0
+  Local port:              1
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   n3768
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+[n3768.occigen:47440] 5 more processes have sent help message help-mpi-btl-openib.txt / ib port not selected
+[n3768.occigen:47440] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n3768.occigen:47440] 5 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+--------------------------------------------------------------------------
+By default, for Open MPI 4.0 and later, infiniband ports on a device
+are not used by default.  The intent is to use UCX for these devices.
+You can override this policy by setting the btl_openib_allow_ib MCA parameter
+to true.
+
+  Local host:              n3768
+  Local adapter:           mlx5_0
+  Local port:              1
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   n3768
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+[n3768.occigen:47488] 5 more processes have sent help message help-mpi-btl-openib.txt / ib port not selected
+[n3768.occigen:47488] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n3768.occigen:47488] 5 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+--------------------------------------------------------------------------
+By default, for Open MPI 4.0 and later, infiniband ports on a device
+are not used by default.  The intent is to use UCX for these devices.
+You can override this policy by setting the btl_openib_allow_ib MCA parameter
+to true.
+
+  Local host:              n3768
+  Local adapter:           mlx5_0
+  Local port:              1
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   n3768
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+[n3768.occigen:47532] 5 more processes have sent help message help-mpi-btl-openib.txt / ib port not selected
+[n3768.occigen:47532] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n3768.occigen:47532] 5 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+--------------------------------------------------------------------------
+By default, for Open MPI 4.0 and later, infiniband ports on a device
+are not used by default.  The intent is to use UCX for these devices.
+You can override this policy by setting the btl_openib_allow_ib MCA parameter
+to true.
+
+  Local host:              n3768
+  Local adapter:           mlx5_0
+  Local port:              1
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   n3768
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+[n3768.occigen:47567] 5 more processes have sent help message help-mpi-btl-openib.txt / ib port not selected
+[n3768.occigen:47567] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n3768.occigen:47567] 5 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+--------------------------------------------------------------------------
+By default, for Open MPI 4.0 and later, infiniband ports on a device
+are not used by default.  The intent is to use UCX for these devices.
+You can override this policy by setting the btl_openib_allow_ib MCA parameter
+to true.
+
+  Local host:              n3768
+  Local adapter:           mlx5_0
+  Local port:              1
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   n3768
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+[n3768.occigen:47606] 5 more processes have sent help message help-mpi-btl-openib.txt / ib port not selected
+[n3768.occigen:47606] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n3768.occigen:47606] 5 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+--------------------------------------------------------------------------
+By default, for Open MPI 4.0 and later, infiniband ports on a device
+are not used by default.  The intent is to use UCX for these devices.
+You can override this policy by setting the btl_openib_allow_ib MCA parameter
+to true.
+
+  Local host:              n3768
+  Local adapter:           mlx5_0
+  Local port:              1
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   n3768
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+[n3768.occigen:47654] 5 more processes have sent help message help-mpi-btl-openib.txt / ib port not selected
+[n3768.occigen:47654] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n3768.occigen:47654] 5 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+--------------------------------------------------------------------------
+By default, for Open MPI 4.0 and later, infiniband ports on a device
+are not used by default.  The intent is to use UCX for these devices.
+You can override this policy by setting the btl_openib_allow_ib MCA parameter
+to true.
+
+  Local host:              n3768
+  Local adapter:           mlx5_0
+  Local port:              1
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   n3768
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+[n3768.occigen:47696] 5 more processes have sent help message help-mpi-btl-openib.txt / ib port not selected
+[n3768.occigen:47696] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n3768.occigen:47696] 5 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+--------------------------------------------------------------------------
+By default, for Open MPI 4.0 and later, infiniband ports on a device
+are not used by default.  The intent is to use UCX for these devices.
+You can override this policy by setting the btl_openib_allow_ib MCA parameter
+to true.
+
+  Local host:              n3768
+  Local adapter:           mlx5_0
+  Local port:              1
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   n3768
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+[n3768.occigen:47736] 5 more processes have sent help message help-mpi-btl-openib.txt / ib port not selected
+[n3768.occigen:47736] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n3768.occigen:47736] 5 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+--------------------------------------------------------------------------
+By default, for Open MPI 4.0 and later, infiniband ports on a device
+are not used by default.  The intent is to use UCX for these devices.
+You can override this policy by setting the btl_openib_allow_ib MCA parameter
+to true.
+
+  Local host:              n3768
+  Local adapter:           mlx5_0
+  Local port:              1
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   n3768
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+[n3768.occigen:47775] 5 more processes have sent help message help-mpi-btl-openib.txt / ib port not selected
+[n3768.occigen:47775] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n3768.occigen:47775] 5 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+--------------------------------------------------------------------------
+By default, for Open MPI 4.0 and later, infiniband ports on a device
+are not used by default.  The intent is to use UCX for these devices.
+You can override this policy by setting the btl_openib_allow_ib MCA parameter
+to true.
+
+  Local host:              n3768
+  Local adapter:           mlx5_0
+  Local port:              1
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   n3768
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+[n3768.occigen:47827] 5 more processes have sent help message help-mpi-btl-openib.txt / ib port not selected
+[n3768.occigen:47827] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n3768.occigen:47827] 5 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+--------------------------------------------------------------------------
+By default, for Open MPI 4.0 and later, infiniband ports on a device
+are not used by default.  The intent is to use UCX for these devices.
+You can override this policy by setting the btl_openib_allow_ib MCA parameter
+to true.
+
+  Local host:              n3768
+  Local adapter:           mlx5_0
+  Local port:              1
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   n3768
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+[n3768.occigen:47867] 5 more processes have sent help message help-mpi-btl-openib.txt / ib port not selected
+[n3768.occigen:47867] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n3768.occigen:47867] 5 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+--------------------------------------------------------------------------
+By default, for Open MPI 4.0 and later, infiniband ports on a device
+are not used by default.  The intent is to use UCX for these devices.
+You can override this policy by setting the btl_openib_allow_ib MCA parameter
+to true.
+
+  Local host:              n3768
+  Local adapter:           mlx5_0
+  Local port:              1
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   n3768
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+[n3768.occigen:47907] 5 more processes have sent help message help-mpi-btl-openib.txt / ib port not selected
+[n3768.occigen:47907] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n3768.occigen:47907] 5 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+--------------------------------------------------------------------------
+By default, for Open MPI 4.0 and later, infiniband ports on a device
+are not used by default.  The intent is to use UCX for these devices.
+You can override this policy by setting the btl_openib_allow_ib MCA parameter
+to true.
+
+  Local host:              n3768
+  Local adapter:           mlx5_0
+  Local port:              1
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   n3768
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+[n3768.occigen:47945] 5 more processes have sent help message help-mpi-btl-openib.txt / ib port not selected
+[n3768.occigen:47945] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n3768.occigen:47945] 5 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+--------------------------------------------------------------------------
+By default, for Open MPI 4.0 and later, infiniband ports on a device
+are not used by default.  The intent is to use UCX for these devices.
+You can override this policy by setting the btl_openib_allow_ib MCA parameter
+to true.
+
+  Local host:              n3768
+  Local adapter:           mlx5_0
+  Local port:              1
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   n3768
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+[n3768.occigen:47994] 5 more processes have sent help message help-mpi-btl-openib.txt / ib port not selected
+[n3768.occigen:47994] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n3768.occigen:47994] 5 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+--------------------------------------------------------------------------
+By default, for Open MPI 4.0 and later, infiniband ports on a device
+are not used by default.  The intent is to use UCX for these devices.
+You can override this policy by setting the btl_openib_allow_ib MCA parameter
+to true.
+
+  Local host:              n3768
+  Local adapter:           mlx5_0
+  Local port:              1
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   n3768
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+[n3768.occigen:48037] 5 more processes have sent help message help-mpi-btl-openib.txt / ib port not selected
+[n3768.occigen:48037] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n3768.occigen:48037] 5 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+--------------------------------------------------------------------------
+By default, for Open MPI 4.0 and later, infiniband ports on a device
+are not used by default.  The intent is to use UCX for these devices.
+You can override this policy by setting the btl_openib_allow_ib MCA parameter
+to true.
+
+  Local host:              n3768
+  Local adapter:           mlx5_0
+  Local port:              1
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   n3768
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+[n3768.occigen:48076] 5 more processes have sent help message help-mpi-btl-openib.txt / ib port not selected
+[n3768.occigen:48076] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n3768.occigen:48076] 5 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+--------------------------------------------------------------------------
+By default, for Open MPI 4.0 and later, infiniband ports on a device
+are not used by default.  The intent is to use UCX for these devices.
+You can override this policy by setting the btl_openib_allow_ib MCA parameter
+to true.
+
+  Local host:              n3768
+  Local adapter:           mlx5_0
+  Local port:              1
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   n3768
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+[n3768.occigen:48115] 5 more processes have sent help message help-mpi-btl-openib.txt / ib port not selected
+[n3768.occigen:48115] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n3768.occigen:48115] 5 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+--------------------------------------------------------------------------
+By default, for Open MPI 4.0 and later, infiniband ports on a device
+are not used by default.  The intent is to use UCX for these devices.
+You can override this policy by setting the btl_openib_allow_ib MCA parameter
+to true.
+
+  Local host:              n3768
+  Local adapter:           mlx5_0
+  Local port:              1
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   n3768
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+[n3768.occigen:48166] 5 more processes have sent help message help-mpi-btl-openib.txt / ib port not selected
+[n3768.occigen:48166] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n3768.occigen:48166] 5 more processes have sent help message help-mpi-btl-openib.txt / error in device init

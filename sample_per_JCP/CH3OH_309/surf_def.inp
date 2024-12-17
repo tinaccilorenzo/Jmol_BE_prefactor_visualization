@@ -1,0 +1,11 @@
+!QM/XTB2 DLPNO-CCSD(T) aug-cc-pVTZ aug-cc-pVTZ/C TightPNO
+%maxcore 2000
+%pal
+nprocs 10
+end
+%qmmm
+QMAtoms {438 439 440 501 502 503 } end 
+ActiveAtoms {438 439 440 501 502 503 } end 
+end
+*xyzfile 0 1 surf_inp.xyz 
+

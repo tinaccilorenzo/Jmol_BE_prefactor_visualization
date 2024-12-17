@@ -1,0 +1,6 @@
+! DLPNO-CCSD(T) aug-cc-pVTZ aug-cc-pVTZ/C TightPNO
+%pal
+nprocs 6
+end
+*xyzfile 0 1 ch3oh.xyz
+
